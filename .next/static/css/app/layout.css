@@ -1,0 +1,326 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg: #0a0a08;
+  --bg-2: #111110;
+  --bg-card: #161614;
+  --gold: #c9a84c;
+  --gold-light: #e8c96a;
+  --gold-dim: rgba(201, 168, 76, 0.15);
+  --cream: #f5f0e8;
+  --cream-dim: rgba(245, 240, 232, 0.6);
+  --cream-muted: rgba(245, 240, 232, 0.25);
+  --border: rgba(201, 168, 76, 0.2);
+  --border-subtle: rgba(245, 240, 232, 0.08);
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
+
+/* Selection */
+::selection { background: var(--gold); color: var(--bg); }
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Footer.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__pQtti {
+  border-top: 1px solid var(--border-subtle);
+  padding: 5rem 2rem 2rem;
+  margin-top: 6rem;
+}
+
+.Footer_inner__vtL_T {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 4rem;
+  gap: 4rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.Footer_brand__0rdww {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.Footer_mark__l51Uw {
+  color: var(--gold);
+  font-size: 1.5rem;
+}
+
+.Footer_name__rGa7a {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--cream);
+}
+
+.Footer_tagline__edhu4 {
+  color: var(--cream-muted);
+  font-size: 0.9rem;
+  max-width: 300px;
+  margin-top: 0.5rem;
+}
+
+.Footer_cols__FYdso {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+
+.Footer_col__WMzcr {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.Footer_col__WMzcr h4 {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.Footer_col__WMzcr a {
+  color: var(--cream-dim);
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.Footer_col__WMzcr a:hover {
+  color: var(--cream);
+}
+
+.Footer_bottom__wxP7Z {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--cream-muted);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .Footer_inner__vtL_T {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .Footer_cols__FYdso {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .Footer_bottom__wxP7Z {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Navbar.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_nav__yFFPE {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.5rem 0;
+  transition: all 0.4s ease;
+}
+
+.Navbar_nav__yFFPE.Navbar_scrolled__N9DJM {
+  background: rgba(10, 10, 8, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.Navbar_inner__Cumf_ {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar_logo__X4o9i {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.Navbar_logoMark___leZt {
+  color: var(--gold);
+  font-size: 1.2rem;
+  animation: Navbar_spin__NYxM7 8s linear infinite;
+}
+
+@keyframes Navbar_spin__NYxM7 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Navbar_logoText__Jmms3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--cream);
+  letter-spacing: 0.04em;
+}
+
+.Navbar_links__puXTb {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.Navbar_link__Ssa7S {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--cream-dim);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.Navbar_link__Ssa7S::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.3s ease;
+}
+
+.Navbar_link__Ssa7S:hover,
+.Navbar_link__Ssa7S.Navbar_active__qyFWv {
+  color: var(--cream);
+}
+
+.Navbar_link__Ssa7S:hover::after,
+.Navbar_link__Ssa7S.Navbar_active__qyFWv::after {
+  width: 100%;
+}
+
+.Navbar_cta__wgvF5 {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.Navbar_cta__wgvF5:hover {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+.Navbar_burger__5O0zC {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.Navbar_burger__5O0zC span {
+  display: block;
+  width: 24px;
+  height: 1px;
+  background: var(--cream);
+  transition: all 0.3s ease;
+}
+
+.Navbar_burgerOpen__W1ncg span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.Navbar_burgerOpen__W1ncg span:nth-child(2) {
+  opacity: 0;
+}
+.Navbar_burgerOpen__W1ncg span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .Navbar_burger__5O0zC { display: flex; }
+
+  .Navbar_links__puXTb {
+    display: none;
+    position: fixed;
+    inset: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--bg);
+  }
+
+  .Navbar_links__puXTb.Navbar_open__wWapx {
+    display: flex;
+  }
+
+  .Navbar_link__Ssa7S {
+    font-size: 1.2rem;
+  }
+}
+
